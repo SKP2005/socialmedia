@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./login.scss"
 
 function Login() {
@@ -14,7 +15,9 @@ function Login() {
              officiis ut ipsam molestias!
           </p>
           <span>Don't you have an accounr?</span>
+          <Link to="/register">
           <button>Register</button>
+          </Link>
 
         </div>
         <div className="right">
